@@ -1,0 +1,55 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+h2 {
+  color: #737376;
+  font-size: medium;
+}
+
+.leftSide {
+  margin-left: 2rem;
+}
+
+button {
+  background-color: #3333e5;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.listHeading {
+  color: #3333e5;
+}
+
+ul {
+  list-style: none;
+}
+
+.ticks :before {
+  content: "✓";
+  color: #31d648;
+}
+
+.stars :before {
+  content: "﹡";
+}
+
+.leftText {
+  color: #737376;
+}
+
+.currency {
+  color: #737376;
+}
+
+.rightSide {
+  /* display: inline-grid;
+  align-content: right; */
+  vertical-align: right;
+}
